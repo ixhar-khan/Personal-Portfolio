@@ -1,0 +1,47 @@
+@media only screen and (max-width: 567px) {
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .left-menu {
+    display: none;
+  }
+
+  .main-body {
+    width: var(--Continar-Width);
+  }
+
+  .right-menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .main {
+    width: var(--Continar-Width);
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-child {
+    width: 1470px;
+  }
+
+  .hero-left h1 {
+    width: 500px;
+  }
+
+  .social ul li {
+    padding: 6px;
+  }
+
+  .social ul li a svg {
+    width: 15px;
+    height: 15px;
+  }
+}
