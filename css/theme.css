@@ -17,7 +17,8 @@
   --Heading-Weight: 600;
   --Bold-Text-Color: var(--Heading-Color);
   --Bold-Text-Size: 18px;
-  --Bold-Text-Line-Height: 22px --Bold-Text-Weight: 500;
+  --Bold-Text-Line-Height: 22px;
+  --Bold-Text-Weight: 500;
   --Continar-Width: 100%;
   --Continar-Height: 100%;
   --Transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
@@ -42,7 +43,8 @@
   --Heading-Weight: 600;
   --Bold-Text-Color: var(--Heading-Color);
   --Bold-Text-Size: 18px;
-  --Bold-Text-Line-Height: 22px --Bold-Text-Weight: 500;
+  --Bold-Text-Line-Height: 22px;
+  --Bold-Text-Weight: 500;
   --Continar-Width: 100%;
   --Continar-Height: 100%;
   --Transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);

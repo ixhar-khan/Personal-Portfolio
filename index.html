@@ -14,6 +14,7 @@
     href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.11/dist/lenis.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body id="body">
@@ -306,7 +307,7 @@
 
       <div class="main-body">
         <div class="main-body-child">
-          <div class="hero-section">
+          <section class="hero-section">
             <div class="hero-child">
               <div class="hero-left">
                 <div class="icons">
@@ -374,8 +375,8 @@
                 <img src="/assets/main img.png" alt="main-img" />
               </div>
             </div>
-          </div>
-          <div class="my-services">
+          </section>
+          <section class="my-services">
             <div class="services-child">
               <div class="text-container">
                 <h2 class="main-heading">My Services</h2>
@@ -432,8 +433,8 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="priceing">
+          </section>
+          <section class="priceing">
             <div class="priceing-child">
               <div class="text-container">
                 <h2 class="main-heading">Price Plans</h2>
@@ -442,68 +443,109 @@
               </div>
               <div class="price-cards">
                 <div class="price-card">
-                  <p class="tier">silver</p>
-                  <div class="price-dev">
-                    <span>$0.00</span>
-                    <p>/hour</p>
+                  <div class="price-card-child first-card">
+                    <p class="tier">silver</p>
+                    <div class="price-dev">
+                      <span>$0.00</span>
+                      <p>/hour</p>
+                    </div>
+                    <p class="price-peragaph">For most businesses that want to
+                      optimize web queries</p>
+                    <ul class="price-card-services">
+                      <li class="valid">UI Design</li>
+                      <li class="valid">web development</li>
+                      <li class="invalid">logo design</li>
+                      <li class="invalid">seo optimization</li>
+                      <li class="invalid">wordPress integration</li>
+                      <li class="invalid">5 Websites</li>
+                      <li class="invalid">unlimited user</li>
+                      <li class="invalid last-li">20 gB bandwith</li>
+                    </ul>
+                    <button type="button" class="order-btn">ORDER NOW</button>
                   </div>
-                  <p class="price-peragaph">For most businesses that want to
-                    optimize web queries</p>
-                  <ul class="price-card-services">
-                    <li class="valid">UI Design</li>
-                    <li class="valid">web development</li>
-                    <li class="invalid">logo design</li>
-                    <li class="invalid">seo optimization</li>
-                    <li class="invalid">wordPress integration</li>
-                    <li class="invalid">5 Websites</li>
-                    <li class="invalid">unlimited user</li>
-                    <li class="invalid">20 gB bandwith</li>
-                  </ul>
-                  <button type="button" class="order-btn">ORDER NOW</button>
                 </div>
                 <div class="price-card">
-                  <p>silver</p>
-                  <div>
-                    <p>$0.00</p>
-                    <p>/hour</p>
+                  <div class="second-card">
+                    <div class="popular">
+                      <p>most popular</p>
+                    </div>
+                    <div class="price-card-child">
+                      <p class="tier gold">Gold</p>
+                      <div class="price-dev">
+                        <span>$50.00</span>
+                        <p>/hour</p>
+                      </div>
+                      <p class="price-peragaph">For most businesses that want to
+                        optimize web queries</p>
+                      <ul class="price-card-services">
+                        <li class="valid">UI Design</li>
+                        <li class="valid">web development</li>
+                        <li class="valid">logo design</li>
+                        <li class="valid">seo optimization</li>
+                        <li class="invalid">wordPress integration</li>
+                        <li class="invalid">5 Websites</li>
+                        <li class="invalid">unlimited user</li>
+                        <li class="invalid last-li">20 gB bandwith</li>
+                      </ul>
+                      <button type="button" class="order-btn gold-btn">ORDER NOW</button>
+                    </div>
                   </div>
-                  <p>For most businesses that want to
-                    optimize web queries</p>
-                  <ul>
-                    <li>UI Design</li>
-                    <li>web development</li>
-                    <li>logo design</li>
-                    <li>seo optimization</li>
-                    <li>wordPress integration</li>
-                    <li>5 Websites</li>
-                    <li>unlimited user</li>
-                    <li>20 gB bandwith</li>
-                  </ul>
-                  <button type="button">ORDER NOW</button>
                 </div>
                 <div class="price-card">
-                  <p>silver</p>
-                  <div>
-                    <p>$0.00</p>
-                    <p>/hour</p>
+                  <div class="price-card-child third-card">
+                    <p class="tier">dimond</p>
+                    <div class="price-dev">
+                      <span>$80.00</span>
+                      <p>/hour</p>
+                    </div>
+                    <p class="price-peragaph">For most businesses that want to
+                      optimize web queries</p>
+                    <ul class="price-card-services">
+                      <li class="valid">UI Design</li>
+                      <li class="valid">web development</li>
+                      <li class="valid">logo design</li>
+                      <li class="valid">seo optimization</li>
+                      <li class="valid">wordPress integration</li>
+                      <li class="valid">5 Websites</li>
+                      <li class="valid">unlimited user</li>
+                      <li class="valid last-li">20 gB bandwith</li>
+                    </ul>
+                    <button type="button" class="order-btn">ORDER NOW</button>
                   </div>
-                  <p>For most businesses that want to
-                    optimize web queries</p>
-                  <ul>
-                    <li>UI Design</li>
-                    <li>web development</li>
-                    <li>logo design</li>
-                    <li>seo optimization</li>
-                    <li>wordPress integration</li>
-                    <li>5 Websites</li>
-                    <li>unlimited user</li>
-                    <li>20 gB bandwith</li>
-                  </ul>
-                  <button type="button">ORDER NOW</button>
                 </div>
               </div>
             </div>
-          </div>
+          </section>
+          <section class="recommendations">
+            <div class="recommendations-child">
+              <div class="text-container">
+                <h2 class="main-heading">Recommendations</h2>
+                <p class="main-paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                  Velit officia consequat duis enim velit mollit. lorem ipsum</p>
+              </div>
+              <div class="review swiper mySwiper">
+                <div class="review-child swiper-wrapper">
+                  <div class="review-dev swiper-slide">
+                    <div class="testimonial-card">first</div>
+                    <div class="testimonial-card">second</div>
+                    <div class="testimonial-card">third</div>
+                  </div>
+                  <div class="review-dev swiper-slide">
+                    <div class="testimonial-card">first</div>
+                    <div class="testimonial-card">second</div>
+                    <div class="testimonial-card">third</div>
+                  </div>
+                  <div class="review-dev swiper-slide">
+                    <div class="testimonial-card">first</div>
+                    <div class="testimonial-card">second</div>
+                    <div class="testimonial-card">third</div>
+                  </div>
+                   <div class="swiper-pagination"></div>
+                </div>
+              </div>
+                             
+            </div>
+          </section>
         </div>
       </div>
 
@@ -551,6 +593,7 @@
     </div>
   </main>
   <script src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 

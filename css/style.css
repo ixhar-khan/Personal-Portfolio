@@ -681,13 +681,12 @@ body {
 }
 
 .services{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 15px;
-  flex-wrap: wrap;
 }
 
 .service-child{
-  width: 310px;
   height: 225px;
   display: flex;
   flex-direction: column;
@@ -740,24 +739,29 @@ body {
 
 .price-cards{
   width: var(--Continar-Width);
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   padding: 50px 0px;
 }
 
-.price-card{
-  width: 310px;
-  height: 610px;
+.price-card-child{
+  height: 640px;
   background-color: var(--White-Color);
   padding: 30px;
 }
 
+.first-card,.third-card{
+  height: 670px;
+}
 .tier{
   color: var(--Heading-Color);
   font-size: 24px;
   line-height: 30px;
-  font-weight: 800;
+  font-weight: 600;
   text-transform: capitalize;
+  padding-bottom: 20px;
+  padding-top: 30px;
 }
 
 .price-dev{
@@ -837,4 +841,84 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+}
+
+.price-peragaph{
+  color: var(--Paragraph-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-bottom: 20px;
+  padding-top: 5px;
+}
+
+.order-btn{
+  width: 170px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--White-Color);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--Heading-Color);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.gold-btn{
+  background-color: #FFB400;
+}
+
+.last-li{
+  border-bottom: none ;
+}
+
+.popular{
+  width: var(--Continar-Width);
+  background-color: #FFB400;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular p{
+  color: var(--Heading-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.gold{
+  padding-top: 0px ;
+}
+
+.review{
+  width: var(--Continar-Width);
+  padding-top: 50px!important;
+  height: 420px !important;
+}
+
+.review-dev{
+  width: var(--Continar-Width) !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.testimonial-card{
+  height: 310px;
+  background-color: var(--White-Color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recommendations{
+  width: var(--Continar-Width);
+  padding: 50px 0px;
 }

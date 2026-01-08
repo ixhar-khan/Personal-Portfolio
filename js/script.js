@@ -50,3 +50,12 @@ theme_btn.addEventListener("click", function () {
     count = 0;
   }
 });
+
+const swiper = new Swiper(".mySwiper", {
+  slidesPerView: 1,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
