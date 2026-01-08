@@ -2,6 +2,7 @@
   --White-Color: #ffffff;
   --White-Low: #e4e6eb;
   --Body-Color: #f0f0f6;
+  --bg-color: #f0f0f6;
   --Black: #18191a;
   --Black-One: #3a3b3c;
   --Black-Two: #242526;
@@ -22,12 +23,14 @@
   --Continar-Width: 100%;
   --Continar-Height: 100%;
   --Transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  --opacity: 0.6;
 }
 
 .dark-var {
   --White-Color: #1c1c1c;
   --White-Low: #131313;
   --Body-Color: #131313;
+  --bg-color: #FFB400;
   --Black: #ffffff;
   --Black-One: #ffffff;
   --Black-Two: #ffffff;
@@ -48,4 +51,5 @@
   --Continar-Width: 100%;
   --Continar-Height: 100%;
   --Transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    --opacity: 1;
 }

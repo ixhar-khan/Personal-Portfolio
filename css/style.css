@@ -83,6 +83,8 @@ body {
 .profile img {
   width: 150px;
   height: 150px;
+  background-color: #f1f1f1;
+  border-radius: 100px;
 }
 
 #dot {
@@ -243,7 +245,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 5px;
-  color: var(--Heading-Color);
+  color: #2b2b2b;
   font-size: 16px;
   transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
   width: 156px;
@@ -269,6 +271,7 @@ body {
 
 .right-menu-child {
   background-color: var(--White-Color);
+  height: 1422px;
   padding: 50px 30px;
   flex-direction: column;
   align-items: center;
@@ -295,7 +298,7 @@ body {
 }
 
 .nav-child ul li a {
-  background-color: var(--Body-Color);
+  background-color: var(--bg-color);
   display: flex;
   border-radius: 99px;
   width: 40px;
@@ -306,7 +309,7 @@ body {
 }
 
 .nav-child ul li a img{
-  opacity: 0.6;
+  opacity: var(--opacity);
 }
 
 .nav-child ul li:hover img{
@@ -491,7 +494,7 @@ body {
 
 .key{
   background-color: #FFB400;
-  color: var(--Heading-Color);
+  color: #2b2b2b;
   padding: 2px 3px;
   font-size: 15px;
   line-height: 24px;
@@ -859,10 +862,10 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 30px;
-  background-color: var(--White-Color);
+  background-color: white;
   font-size: 14px;
   font-weight: 700;
-  color: var(--Heading-Color);
+  color: #2b2b2b;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
   margin-top: 10px;
   cursor: pointer;
@@ -913,12 +916,68 @@ body {
 .testimonial-card{
   height: 310px;
   background-color: var(--White-Color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 20px;
 }
 
 .recommendations{
   width: var(--Continar-Width);
   padding: 50px 0px;
+}
+
+.swiper-pagination-bullet{
+  width: 10px !important;
+  height: 10px !important;
+  background-color: #FFB400 !important;
+}
+
+.testimonial-card-child{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.review-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info-dev{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.review-container span{
+  color: var(--Heading-Color);
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.review-container p{
+  color: var(--Paragraph-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 260px;
+}
+
+.info-dev img{
+  width: 80px;
+  height: 80px;
+}
+
+.name-title .name{
+  color: var(--Heading-Color);
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.name-title .role{
+  color: var(--Paragraph-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
 }

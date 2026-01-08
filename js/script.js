@@ -33,7 +33,12 @@ window.addEventListener("online", updateOnlineStatus);
 window.addEventListener("offline", updateOnlineStatus);
 
 // Dark Theme Code
-if (theme == "Dark") body.classList.add("dark-var");
+if (theme == "Dark"){
+  moon.style.display = "none";
+  star.style.display = "block";
+  body.classList.add("dark-var");
+
+}
 
 theme_btn.addEventListener("click", function () {
   if (count === 0) {
@@ -50,6 +55,7 @@ theme_btn.addEventListener("click", function () {
     count = 0;
   }
 });
+
 
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
