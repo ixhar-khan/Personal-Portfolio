@@ -981,3 +981,97 @@ body {
   line-height: 24px;
   font-weight: 400;
 }
+
+.Education{
+  width: var(--Continar-Width);
+}
+
+.edu-dev{
+  width: var(--Continar-Width);
+  background-color: var(--White-Color);
+  padding: 40px 30px;
+  margin: 50px 0px;
+}
+
+.edu-one{
+  display: flex;
+  justify-content: space-between; 
+  border-bottom: 1.5px solid #F0F0F6;
+  padding-bottom: 25px;
+}
+
+.edu-two{
+  margin-top: 25px;
+}
+
+.edu-three{
+  margin-top: 25px;
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+.edu-uni{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.uni{
+  color: var(--Heading-Color);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.edu-roll{
+  color: var(--Heading-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.edu-date{
+  background-color: #FFB400;
+  width: 111px;
+  color: var(--White-Color);
+  font-size: 10px;
+  height: 18px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edu-roll-date{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.edu-uni-info{
+  width: 540px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edu-uni-info span{
+  color: var(--Heading-Color);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.edu-uni-info p{
+  color: var(--Paragraph-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 520px;
+}
+
+.edu-line{
+  width: var(--Continar-Width);
+
+}
