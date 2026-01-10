@@ -5,6 +5,10 @@ const moon = document.querySelector("#moon");
 const star = document.querySelector("#star");
 let count = 0;
 const theme = window.localStorage.getItem("Theme");
+const filterItems = document.querySelectorAll(
+  ".portfolio-categories .filter-btn"
+);
+const galleryItems = document.querySelectorAll(".gallery-item");
 
 // Lenis Js Code
 const lenis = new Lenis();
@@ -33,11 +37,10 @@ window.addEventListener("online", updateOnlineStatus);
 window.addEventListener("offline", updateOnlineStatus);
 
 // Dark Theme Code
-if (theme == "Dark"){
+if (theme == "Dark") {
   moon.style.display = "none";
   star.style.display = "block";
   body.classList.add("dark-var");
-
 }
 
 theme_btn.addEventListener("click", function () {
@@ -56,7 +59,6 @@ theme_btn.addEventListener("click", function () {
   }
 });
 
-
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
   loop: true,
@@ -65,3 +67,25 @@ const swiper = new Swiper(".mySwiper", {
     clickable: true,
   },
 });
+
+filterItems.forEach(item => {
+        item.addEventListener('click', () => {
+            // 1. Remove 'active' class from all <li>
+            filterItems.forEach(li => li.classList.remove('active'));
+            // 2. Add 'active' class to clicked <li>
+            item.classList.add('active');
+
+            // 3. Filter images
+            const filterValue = item.getAttribute('data-filter');
+
+            galleryItems.forEach(galleryItem => {
+                if (filterValue === 'all' || galleryItem.getAttribute('data-category') === filterValue) {
+                    galleryItem.classList.remove('hide');
+                    galleryItem.classList.add('show');
+                } else {
+                    galleryItem.classList.add('hide');
+                    galleryItem.classList.remove('show');
+                }
+            });
+        });
+    });
