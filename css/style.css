@@ -1186,3 +1186,83 @@ body {
     transform: scale(1);
   }
 }
+
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--White-Color);
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  width: 25%;
+  border-radius: 5px;
+}
+
+.close-btn {
+  position: relative;
+  top: 20px;
+  right: 680px;
+  align-self: start;
+  cursor: pointer;
+}
+
+.blog {
+  width: var(--Continar-Width);
+}
+
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 50px 0px;
+}
+
+.blog-img img {
+  width: 100%;
+  height: 300px;
+}
+
+.blog-info {
+  background-color: var(--White-Color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.blog-title {
+  color: var(--Heading-Color);
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.blog-description {
+  color: var(--Paragraph-Color);
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.news-btn {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.news-icon {
+  width: 10px;
+  height: 10px;
+}

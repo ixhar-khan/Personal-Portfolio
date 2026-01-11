@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! This project serves as a central hub to showcase my skills, services, and projects as a Front-end Developer. It is designed with a focus on clean UI, responsiveness, and user experience.
 
 ## 🌟 Live Demo
-[View Live Site](https://your-username.github.io/personal-portfolio)
+[View Live Site](https://github.com/ixhar-khan/Personal-Portfolio.git)
 
 ## 🛠️ Tech Stack
 * **HTML5:** Semantic structure and layout.
@@ -21,7 +21,7 @@ Welcome to my personal portfolio repository! This project serves as a central hu
 ## 🚀 How to Run Locally
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/personal-portfolio.git](https://github.com/your-username/personal-portfolio.git)
+    git clone https://github.com/ixhar-khan/Personal-Portfolio.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
