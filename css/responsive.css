@@ -44,4 +44,16 @@
     width: 15px;
     height: 15px;
   }
+
+  .price-peragaph {
+    font-size: 15px;
+  }
+
+  .contact-child {
+    grid-template-columns: 570px 1fr;
+  }
+
+  .blog-description{
+    font-size: 15px;
+  }
 }

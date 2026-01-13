@@ -51,7 +51,7 @@ body {
 .main-child {
   display: flex;
   width: var(--Continar-Width);
-  grid-template-columns: 22% 70% 8%;
+  /*grid-template-columns: 22% 70% 8%;*/
   gap: 30px;
 }
 
@@ -167,7 +167,7 @@ body {
 }
 
 .main-body {
-  width: 70%;
+  width: 65%;
   height: var(--Continar-Height);
 }
 
@@ -205,7 +205,7 @@ body {
   object-fit: cover;
   position: relative;
   z-index: 9999;
-  transform: translateY(34px);
+  transform: translate(29px,33px);
 }
 
 .hero-left {
@@ -220,7 +220,7 @@ body {
   font-size: 45px;
   line-height: 55px;
   font-weight: 700;
-  width: 400px;
+  width: 456px;
 }
 
 .hero-left h1 span {
@@ -864,7 +864,7 @@ body {
 
 .price-peragaph {
   color: var(--Paragraph-Color);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 24px;
   font-weight: 400;
   padding-bottom: 20px;
@@ -905,7 +905,7 @@ body {
 }
 
 .popular p {
-  color: var(--Heading-Color);
+  color: #2b2b2b;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
@@ -1014,6 +1014,7 @@ body {
   justify-content: space-between;
   border-bottom: 1.5px solid #f0f0f6;
   padding-bottom: 25px;
+  gap: 20px;
 }
 
 .edu-two {
@@ -1131,7 +1132,7 @@ body {
   color: #ffb400;
 }
 .project {
-  height: 329px;
+  height: 300px;
   position: relative;
   transition: var(--Transition);
   cursor: pointer;
@@ -1167,6 +1168,8 @@ body {
 
 .project img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .gallery-item.hide {
@@ -1233,6 +1236,7 @@ body {
 .blog-img img {
   width: 100%;
   height: 300px;
+  object-fit: cover;
 }
 
 .blog-info {
@@ -1246,13 +1250,14 @@ body {
 .blog-title {
   color: var(--Heading-Color);
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
   font-weight: 500;
+  text-transform: capitalize;
 }
 
 .blog-description {
   color: var(--Paragraph-Color);
-  font-size: 15px;
+  font-size: 13px;
   line-height: 24px;
   font-weight: 400;
 }
@@ -1279,7 +1284,7 @@ body {
 .contact-child {
   width: var(--Continar-Width);
   display: grid;
-  grid-template-columns: 570px 1fr;
+  grid-template-columns: 445px 1fr;
   gap: 20px;
   padding-bottom: 50px;
 }
