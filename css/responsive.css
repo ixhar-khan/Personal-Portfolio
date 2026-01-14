@@ -21,25 +21,35 @@
     flex-direction: column;
   }
 
-  .edu-uni-info p {
-    width: var(--Continar-Width);
-  }
-
   .contact-child {
     display: flex;
     flex-direction: column;
   }
 
-    .service-child {
+  .service-child {
     border-radius: 10px;
   }
 
   .price-card-child {
     border-radius: 10px;
+    padding: 20px;
+  }
+
+  .tier {
+    padding-top: 0px;
   }
 
   .testimonial-card {
     border-radius: 10px;
+  }
+
+  .price-card-child {
+    height: auto;
+  }
+
+  .first-card,
+  .third-card {
+    height: auto;
   }
 
   .blog-img img {
@@ -64,7 +74,7 @@
   }
 
   .footer {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .popular {
@@ -81,7 +91,177 @@
   }
 
   .hero-child {
+    width: var(--Continar-Width);
     border-radius: 10px;
+    padding: 0px 20px;
+    height: 370px;
+  }
+
+  .hero-left {
+    width: var(--Continar-Width);
+  }
+
+  .hero-right img {
+    display: none;
+  }
+
+  .hero-left p {
+    width: var(--Continar-Width);
+    font-size: 14px;
+  }
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .portfolio-categories ul li {
+    font-size: 10px;
+  }
+
+  .protfolio-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-categories ul {
+    gap: 13px;
+  }
+
+  .portfolio-categories {
+    padding: 30px 0px;
+  }
+
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+
+  .con-info {
+    font-size: 30px;
+  }
+
+  .user-info,
+  .contact-info {
+    gap: 30px;
+  }
+
+  .location-key {
+    font-size: 15px;
+  }
+
+  .location-value {
+    font-size: 13px;
+  }
+
+  .footer {
+    height: 40px;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+
+  .location {
+    padding: 10px;
+  }
+
+  .blog-title {
+    font-size: 15px;
+  }
+
+  .news-card-three {
+    display: none;
+  }
+
+  .hero-right {
+    display: none;
+  }
+
+  .plus-icon {
+    border-radius: 10px;
+  }
+
+  .project {
+    height: 250px;
+  }
+
+  .project img {
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .hero-left h1 {
+    font-size: 35px;
+    line-height: 45px;
+    width: var(--Continar-Width);
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .main-paragraph {
+    width: var(--Continar-Width);
+    font-size: 13px;
+  }
+
+  .main-heading {
+    font-size: 30px;
+  }
+
+  .review-dev {
+    grid-template-columns: 1fr;
+  }
+
+  .first-test-card-two,
+  .first-test-card-three,
+  .second-test-card-one,
+  .second-test-card-three,
+  .third-test-card-one,
+  .third-test-card-two {
+    display: none;
+  }
+
+  .price-peragaph {
+    font-size: 15px;
+  }
+
+  .review-container p {
+    width: auto;
+    font-size: 13px;
+  }
+
+  .testimonial-card {
+    height: 280px;
+  }
+
+  .review {
+    height: 380px !important;
+  }
+
+  .edu-one {
+    flex-direction: column;
+  }
+
+  .edu-dev {
+    padding: 20px;
+  }
+
+  .edu-uni-info p {
+    width: auto;
+    font-size: 13px;
+  }
+
+  .edu-uni-info {
+    width: var(--Continar-Width);
   }
 }
 
@@ -103,6 +283,14 @@
     display: block;
   }
 
+  .hero-right {
+    display: none;
+  }
+
+  .hero-left {
+    width: var(--Continar-Width);
+  }
+
   .price-cards {
     display: flex;
     flex-direction: column;
@@ -117,7 +305,7 @@
     flex-direction: column;
   }
 
-    .service-child {
+  .service-child {
     border-radius: 10px;
   }
 
@@ -151,7 +339,7 @@
   }
 
   .footer {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .popular {
@@ -169,6 +357,74 @@
 
   .hero-child {
     border-radius: 10px;
+  }
+
+  .hero-left p {
+    width: 456px;
+  }
+
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .service {
+    width: 48%;
+    flex-grow: 1;
+  }
+
+  .card-three {
+    display: none;
+  }
+
+  .portfolio-categories ul li {
+    font-size: 14px;
+  }
+
+  .protfolio-projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .blogs {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .blog-title {
+    font-size: 15px;
+  }
+
+  .news-card-three {
+    display: none;
+  }
+
+  .last-project {
+    display: none;
+  }
+
+  .plus-icon {
+    border-radius: 10px;
+  }
+
+  .project {
+    height: 250px;
+  }
+
+  .project img {
+    height: 250px;
+    border-radius: 10px;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+
+  .review-dev {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .review-container p {
+    width: var(--Continar-Width);
   }
 }
 
@@ -292,7 +548,7 @@
   }
 
   .footer {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .popular {
@@ -365,7 +621,7 @@
   }
 
   .footer {
-    border-radius: 10px;
+    border-radius: 10px 10px 0px 0px;
   }
 
   .popular {

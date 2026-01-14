@@ -73,9 +73,7 @@ const swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  breakpoints:{
-    
-  },
+  breakpoints: {},
 });
 
 // protfolio
@@ -104,7 +102,6 @@ filterItems.forEach((item) => {
 plusIcons.forEach((icon) => {
   icon.addEventListener("click", function () {
     const parentProject = this.closest(".project");
-
     const projectImage = parentProject.querySelector("img");
 
     lightbox.classList.add("active");

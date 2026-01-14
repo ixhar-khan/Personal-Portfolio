@@ -310,7 +310,15 @@
           <header class="header">
             <div class="header-child">
               <img src="assets/Profile.webp" alt="profile">
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="#131313"><path d="M18 18v2H6v-2zm3-7v2H3v-2zm-3-7v2H6V4z"/></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" id="black-icon" width="23" height="23" viewBox="0 0 24 24"
+                fill="#131313">
+                <path d="M18 18v2H6v-2zm3-7v2H3v-2zm-3-7v2H6V4z" />
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" id="white-icon" width="23" height="23" viewBox="0 0 24 24"
+                fill="#fff">
+                <path d="M18 18v2H6v-2zm3-7v2H3v-2zm-3-7v2H6V4z" />
+              </svg>
             </div>
           </header>
           <section class="hero-section">
@@ -354,12 +362,16 @@
                       d="m7.486 1.338 12.578 6.149-6.15 12.577-12.577-6.148z" />
                   </svg>
                 </div>
-                <h1>I’m Rayan Adlrdard <span>Front-end</span> Developer</h1>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
-                  volutpat feugiat placerat lobortis. Natoque rutrum semper
-                  sed suspendisse nunc lectus.
-                </p>
+                <div>
+                  <h1>I’m Rayan Adlrdard <span>Front-end</span> Developer</h1>
+                </div>
+                <div>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et,
+                    volutpat feugiat placerat lobortis. Natoque rutrum semper
+                    sed suspendisse nunc lectus.
+                  </p>
+                </div>
                 <button type="button">
                   HIRE ME
                   <svg class="btn-icon" width="18" height="18" viewBox="0 0 16 16" fill="none"
@@ -532,7 +544,7 @@
               <div class="review swiper mySwiper">
                 <div class="review-child swiper-wrapper">
                   <div class="review-dev swiper-slide">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card first-test-card-one">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -554,7 +566,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="testimonial-card">
+                    <div class="testimonial-card first-test-card-two">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -576,7 +588,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="testimonial-card card-three">
+                    <div class="testimonial-card card-three first-test-card-three">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -600,7 +612,7 @@
                     </div>
                   </div>
                   <div class="review-dev swiper-slide">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card second-test-card-one">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -622,7 +634,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="testimonial-card">
+                    <div class="testimonial-card second-test-card-two">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -644,7 +656,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="testimonial-card card-three">
+                    <div class="testimonial-card card-three second-test-card-three">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -668,7 +680,7 @@
                     </div>
                   </div>
                   <div class="review-dev swiper-slide">
-                    <div class="testimonial-card">
+                    <div class="testimonial-card third-test-card-one">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -690,7 +702,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="testimonial-card">
+                    <div class="testimonial-card third-test-card-two">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -712,7 +724,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="testimonial-card card-three">
+                    <div class="testimonial-card card-three third-test-card-three">
                       <div class="testimonial-card-child">
                         <div class="review-container">
                           <svg width="130" height="18" viewBox="0 0 130 18" fill="none"
@@ -758,10 +770,12 @@
                     </div>
                   </div>
                   <div class="edu-uni-info">
-                    <span>Certificate of web training</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc,
-                      egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce
-                      tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                    <div><span>Certificate of web training</span></div>
+                    <div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc,
+                        egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce
+                        tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                    </div>
                   </div>
                 </div>
                 <div class="edu-one edu-two">
@@ -773,10 +787,12 @@
                     </div>
                   </div>
                   <div class="edu-uni-info">
-                    <span>Certificate of web training</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc,
-                      egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce
-                      tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                    <div><span>Certificate of web training</span></div>
+                    <div>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet dapibus nibh ut faucibus nunc,
+                        egestas id amet porttitor. Pulvinar quisque sed amet, nulla nunc. Eleifend sodales posuere fusce
+                        tempus etiam et pellentesque. Molestie risus enim neque eget dui.</p>
+                    </div>
                   </div>
                 </div>
                 <div class="edu-one edu-three">
@@ -959,7 +975,7 @@
                   </div>
 
                 </div>
-                <div class="project gallery-item" data-category="ui">
+                <div class="project gallery-item last-project" data-category="ui">
                   <div class="plus-icon">
                     <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M16.833.5v13h13v3.333h-13v13H13.5v-13H.5V13.5h13V.5z" fill="#2b2b2b" stroke="#000" />
@@ -1021,7 +1037,7 @@
 
                   </div>
                 </div>
-                <div class="news">
+                <div class="news news-card-three">
                   <div class="blog-img">
                     <img src="assets/Image (3).png" alt="">
                   </div>
