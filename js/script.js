@@ -16,7 +16,7 @@ const images = document.querySelectorAll(".gallery-item img");
 const project = document.querySelectorAll(".project");
 const plusIcons = document.querySelectorAll(".plus-icon");
 
-// Lenis Js Code
+//// Lenis Js Code
 const lenis = new Lenis();
 
 function raf(time) {
@@ -76,7 +76,7 @@ const swiper = new Swiper(".mySwiper", {
   breakpoints: {},
 });
 
-// protfolio
+// protfolio code
 filterItems.forEach((item) => {
   item.addEventListener("click", () => {
     filterItems.forEach((li) => li.classList.remove("active"));

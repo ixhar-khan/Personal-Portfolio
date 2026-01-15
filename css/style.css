@@ -51,7 +51,6 @@ body {
 .main-child {
   display: flex;
   width: var(--Continar-Width);
-  /*grid-template-columns: 22% 70% 8%;*/
   gap: 30px;
 }
 
@@ -823,7 +822,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(/assets/Vector.svg);
+  background-image: url(assets/Vector.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transform: translateY(5px);
@@ -849,7 +848,7 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url(/assets/Vector\ copy.svg);
+  background-image: url(assets/Vector\ copy.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transform: translateY(5px);
@@ -1473,18 +1472,38 @@ body {
   align-items: center;
 }
 
-.header-child img {
+#profile {
+  width: 40px;
+  height: 40px;
+}
+
+#profile img {
   width: 40px;
   height: 40px;
   object-fit: cover;
   background-color: #f1f1f1;
   border-radius: 90px;
+  cursor: pointer;
+}
+
+.black-menu {
+  width: 23px;
+  height: 23px;
+}
+
+.black-menu img {
+  width: 100%;
+  cursor: pointer;
 }
 
 .hero-right img {
   transform: translate(10px, 33px);
 }
 
-#white-icon {
+.white-menu {
   display: none;
+}
+
+.white-menu-show {
+  display: block;
 }

@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! This project serves as a central hub to showcase my skills, services, and projects as a Front-end Developer. It is designed with a focus on clean UI, responsiveness, and user experience.
 
 ## 🌟 Live Demo
-[View Live Site](https://github.com/ixhar-khan/Personal-Portfolio.git)
+[View Live Site](https://ixhar-khan.github.io/Personal-Portfolio/)
 
 ## 🛠️ Tech Stack
 * **HTML5:** Semantic structure and layout.
