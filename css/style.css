@@ -822,7 +822,7 @@ body {
   display: inline-block;
   width: 20px;
   height: 20px;
-  background-image: url(assets/Vector.svg);
+  background-image: url(/assets/Vector.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transform: translateY(5px);
@@ -848,7 +848,7 @@ body {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-image: url(assets/Vector\ copy.svg);
+  background-image: url(/assets/Vector\ copy.svg);
   background-size: contain;
   background-repeat: no-repeat;
   transform: translateY(5px);
